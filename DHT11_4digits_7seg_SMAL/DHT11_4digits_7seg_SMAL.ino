@@ -139,6 +139,3 @@ void Clear()
     digitalWrite(i, LOW);
   }
 }
-
-//test
-//test
