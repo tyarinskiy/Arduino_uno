@@ -36,6 +36,6 @@ void loop()
 //     lastButtan = HIGH; убираем т.к. значение определяет debounce
   }
   lastButton = currentButton;     
-  if (ledLevel > 255) ledLevel = 0;               //если зачение максимальное выключаем светодиод
+  if (ledLevel > 255) ledLevel = 0;               //если зачение максимальное выключаем светодиодlll
   analogWrite(ledPin, ledLevel);                  //
 }
